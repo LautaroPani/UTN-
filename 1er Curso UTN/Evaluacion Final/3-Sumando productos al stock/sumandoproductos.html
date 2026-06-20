@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stock de Productos</title>
+    <link rel="stylesheet" href="sumandoproductos.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>Administrador de Stock</h1>
+
+        <div class="login">
+
+            <h2>Iniciar Sesión</h2>
+
+            <input type="text" id="usuario" placeholder="Usuario">
+
+            <input type="password" id="password" placeholder="Contraseña">
+
+            <button id="ingresar">
+                Ingresar
+            </button>
+
+        </div>
+
+        <div class="productos">
+
+            <h2>Agregar Producto (Luego de haber iniciado sesión)</h2>
+
+            <input type="text" id="nombreProducto" placeholder="Nombre del producto">
+
+            <input type="number" id="precioProducto" placeholder="Precio">
+
+            <input type="number" id="stockProducto" placeholder="Stock">
+
+            <button id="agregar">
+                Agregar Producto
+            </button>
+
+        </div>
+
+        <div id="mensaje"></div>
+
+        <h2>Listado de Productos</h2>
+
+        <div id="resultado"></div>
+
+    </div>
+
+    <script src="sumandoproductos.js"></script>
+
+</body>
+
+</html>

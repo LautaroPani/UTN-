@@ -1,0 +1,53 @@
+/* -------   EVALUACIÓN FINAL: Trabajo Integrador   --------
+
+1-Diccionario: */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.contenedor{
+    width: 700px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+h1{
+    color: #1e3a8a;
+    text-align: center;
+}
+
+input{
+    width: 250px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+ 
+button{
+    padding: 10px 15px;
+    background-color: #dc2626;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #b91c1c;
+}
+
+#resultado{
+    margin-top: 20px;
+    min-height: 180px;
+    background-color: #cfeaf5;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+}

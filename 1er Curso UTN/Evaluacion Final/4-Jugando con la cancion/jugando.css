@@ -1,0 +1,23 @@
+/* EVALUACIÓN FINAL: Trabajo Integrador  - 4 Jugando con la canción */
+body{
+    font-family: Arial, sans-serif;
+    background-color: pink;
+}
+
+.contenedor{
+    width: 600px;
+    margin: 30px auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+button{
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+}
+
+input{
+    padding: 8px;
+} 

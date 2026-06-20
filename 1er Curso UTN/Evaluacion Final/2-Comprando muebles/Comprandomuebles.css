@@ -1,0 +1,43 @@
+/* EVALUACIÓN FINAL: Trabajo Integrador - 2) Comprando Muebles  */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.contenedor{
+    width: 500px;
+    margin: 30px auto;
+}
+
+.carrito{
+    text-align: right;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.tarjeta{
+    background-color: #b8e6b8;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.tarjeta img{
+    width: 100%;
+}
+
+button{
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.acciones{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#total{
+    background-color: turquoise;
+    padding: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: lightblue;
+}
+form{
+    border: 2px solid green;
+    background-color: darkcyan;
+    color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.boton{
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightcoral;
+}
+
+input[type="text"],input[type="email"],input[type="password"],textarea{
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid darkslategray;
+}
+#mensaje{
+    display: none;
+    color: salmon;
+}
+#password:invalid{
+    border-color: red;
+    background-color: lightsalmon;
+}
+#password:valid{
+    background-color: lightgreen;
+}

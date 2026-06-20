@@ -1,0 +1,44 @@
+<html lang="es"><head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Clase - 6</title>
+</head>
+<body>
+    <h1>Eventos</h1>
+    <p>Algun mensaje</p>
+    <!-- <button onclick="accion(event)">click!</button> -->
+      <button>click!</button>
+    <div class="tarjeta" onmouseover="cambioFondo(this)">
+            <img src="../Clase 5/assets/vela.jpg" alt="">
+            <p>Lorem ipsum dolor sit.</p>
+            <a href="https://www.google.com" onclick="hacerOtraCosa(event)">Mas info...</a>
+            <button onclick="agregar()" onblur="eventoBlur()">Agregar</button>
+    </div> 
+
+    <h2>Agregando un producto</h2>
+    <form action=""> <!--form es para Formularios-->
+        <label for="nombre">Nombre Producto</label> 
+        <input type="text">
+        <label for="cantidad">Stock</label>
+        <input type="number" min="1">
+        <input type="submit" value="Agregar">
+    </form>
+    <h2>Filtrar producto</h2>
+
+    <form action="" onsubmit="ejecutarA(event)">
+        <label for="buscador">Producto</label> 
+        <input type="text" id="palabra">
+        <input type="submit" value="Buscar">
+        <button>Buscar</button>
+    </form>
+
+    <script src="./script.js"></script>
+
+</body></html>
+
+<!--
+Etiqueta -> atributo -> ON+evento (onmouseover o onclick...) -> como valor 
+de ese atributo vamos a colocarle la funcion que queremos que se ejecute.
+Ejemplo: onmouseover = "cambioFondo()" - Cambia el color del fondo al pasar el mouse por encima.
+-->
